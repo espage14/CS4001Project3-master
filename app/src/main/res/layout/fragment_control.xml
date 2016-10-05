@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    tools:context="com.example.espage14.picturematching.GameFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <!-- Add images for buttons -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restart_button"
+        android:text="@string/restart"
+        android:elevation="4dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_button"
+        android:text="@string/main_menu"
+        android:elevation="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Clicks: "
+            android:textColor="@color/Click_text_color"
+
+            android:id="@+id/Number_of_clicks"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/clicks_width"
+            android:text=""
+            android:id="@+id/clicks"
+            android:textColor="@color/Click_text_color"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/play_again_text_width"
+        android:text="Do you want to play again?"
+        android:textColor="@color/Click_text_color"
+        android:padding="@dimen/play_again_text_padding"
+        android:layout_marginTop="@dimen/play_again_text_top_margin"
+        android:visibility="gone"
+        android:id="@+id/play_again_text"
+        />
+    <Button
+        android:layout_width="@dimen/play_again_text_width"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again_button_text"
+        android:id="@+id/play_again_button"
+        android:visibility="gone"/>
+
+    <!-- Change pictures button?-->
+</LinearLayout>

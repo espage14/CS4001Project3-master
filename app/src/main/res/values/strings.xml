@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PictureMatching</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restart">Restart</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="about_game">Sinnoh Pokemon Matching Game! Try to match each pair. Flip 2 tiles and if they match they will stay up, if they do not they will flip down.</string>
+    <string name="ok">OK</string>
+    <string name="play_again_button_text">Play Again</string>
+</resources>

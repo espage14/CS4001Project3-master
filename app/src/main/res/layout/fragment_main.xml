@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/MenuBackground"
+    android:padding="@dimen/padding_menu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinnoh Pokemon Matching Game"
+        android:textColor="@color/ButtonColor"
+        android:textSize="@dimen/text_size_menu"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_game_button"
+        android:text="New Game"
+        android:background="@color/ButtonColor"
+        android:padding="@dimen/padding_button"
+        android:layout_margin="@dimen/margin_menu_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/continue_game_button"
+        android:text="Continue"
+        android:background="@color/ButtonColor"
+        android:padding="@dimen/padding_button"
+        android:layout_margin="@dimen/margin_menu_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_game_button"
+        android:text="About the Game"
+        android:background="@color/ButtonColor"
+        android:padding="@dimen/padding_button"
+        android:layout_margin="@dimen/margin_menu_button"/>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:clipChildren="false"
+    tools:context="com.example.espage14.picturematching.MainActivity"
+    android:background="@drawable/menu_background">
+
+
+
+    <!-- Implement a fragment for the menu-->
+    <fragment
+        android:id="@+id/main_fragment"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        class="com.example.espage14.picturematching.MainFragment"
+        tools:layout="@layout/fragment_main"
+        />
+</RelativeLayout>
+
+
+    <!-- background image from: http://65.media.tumblr.com/11573512760be8d5f70e5e31279e50e1/tumblr_nvjmzbUNT91tzuenco1_1280.jpg-->

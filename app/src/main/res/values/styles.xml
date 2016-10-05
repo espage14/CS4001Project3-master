@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the tiles-->
+    <style name="Tiles">
+        <item name="android:layout_height">@dimen/tile_size</item>
+        <item name="android:layout_width">@dimen/tile_size</item>
+        <item name="android:padding">@dimen/tile_padding</item>
+        <item name="android:layout_margin">@dimen/tile_margin</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/tile_background</item>
+    </style>
+
+</resources>
+
+
+
+
+
+<!-- tile_background is from: https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_Pokeball-128.png-->
